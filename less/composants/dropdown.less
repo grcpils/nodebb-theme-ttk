@@ -1,0 +1,49 @@
+.dropdown-menu {
+  background-color: @color-background;
+  padding: 0;
+}
+.dropdown-menu li a {
+  color: @color-text;
+}
+
+// NAVBAR NITIFICATION
+.dropdown-menu .no-notifs a, .dropdown-menu .loading-text {
+  color: @color-primary;
+}
+
+.dropdown-menu .notification-list {
+
+}
+
+.dropdown-menu .notif-dropdown-link {
+  padding: 0;
+}
+
+.dropdown-menu .notif-dropdown-link a {
+  color: @color-text;
+}
+
+.dropdown-menu .notif-dropdown-link a:hover {
+  background-color: @color-primary;
+  color: darken( @color-background, 10%);
+}
+
+// CHATS FIX ALIGN
+.chat-list {
+  margin: 0;
+}
+.chat-list.chats-list {
+  border: none;
+}
+.chat-list .no_active {
+  border: none;
+}
+.chat-list .no_active a, .chat-list .loading-text a {
+  color: @color-primary;
+}
+.header .chat-list > li.no_active:hover {
+  background-color: @color-primary;
+}
+.header .chat-list > li.no_active:hover > a {
+  color: darken( @color-background, 10%);
+}
