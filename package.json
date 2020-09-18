@@ -3,15 +3,21 @@
   "version": "1.0.0",
   "description": "A theme for the Trankilou team !",
   "main": "theme.less",
-  "keywords": [
-    
-  ],
-  "author": {
-    "name": "Team Trankilou"
-  },
+  "keywords": [],
+  "author": "Team Trankilou",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Pgouerec/nodebb-theme-ttk"
+    "url": "git+https://github.com/grcpils/nodebb-theme-ttk.git"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grcpils/nodebb-theme-ttk/issues"
+  },
+  "homepage": "https://www.team-ttk.fr/",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }

@@ -1,0 +1,51 @@
+.btn {
+  border-radius: 0;
+  transition: .20s;
+}
+
+// Default
+.btn-default {
+  color: @color-text;
+  background-color: darken(@color-background, 10%);
+  border: 1px solid darken(@color-background, 15%);
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active {
+  color: @color-text;
+  background-color: darken(@color-background, 15%);
+  border: 1px solid darken(@color-background, 20%);
+}
+.open > .dropdown-toggle.btn-default {
+  color: @color-primary;
+  background-color: darken(@color-background, 15%);
+  border: 1px solid darken(@color-background, 20%);
+}
+
+// Primary
+.btn-primary {
+  background-color: @color-primary;
+  border: 1px solid darken(@color-primary, 10%);
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background-color: darken(@color-primary, 10%);
+  border: 1px solid darken(@color-primary, 15%);
+}
+.open > .dropdown-toggle.btn-primary {
+  color: @color-background;
+  background-color: darken(@color-primary, 10%);
+  border: 1px solid darken(@color-primary, 15%);
+}
+
+// Info
+.btn-info {
+  background-color: darken(@color-primary, 10%);
+  border: 1px solid darken(@color-primary, 20%);
+}
+.btn-info:hover, .btn-info:focus, .btn-info:active {
+  background-color: darken(@color-primary, 20%);
+  border: 1px solid darken(@color-primary, 25%);
+}
+.open > .dropdown-toggle.btn-info {
+  color: @color-background;
+  background-color: darken(@color-primary, 20%);
+  border: 1px solid darken(@color-primary, 25%);
+}

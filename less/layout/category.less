@@ -1,0 +1,16 @@
+// Highlight
+.category .category-item.highlight, .topic .topic-item.highlight {
+  background-color: @color-background;
+}
+.category .category-item {
+  position: relative;
+}
+.category .category-item.highlight:before, .topic .topic-item.highlight {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 5px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: @color-primary;
+}
